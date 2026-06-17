@@ -1,0 +1,25 @@
+---
+import { getEntry } from 'astro:content';
+import BaseLayout from '@layouts/BaseLayout.astro';
+import PageIntro from '@components/PageIntro.astro';
+import Section from '@components/Section.astro';
+import ContactBlock from '@components/ContactBlock.astro';
+
+const site = await getEntry('settings', 'site');
+---
+
+<BaseLayout title="Contact" description="Get in touch for a quote or consultation. We'll respond within 48 hours.">
+  <PageIntro
+    eyebrow="Contact"
+    title="Start with a conversation"
+    intro="Tell us a little about your project and we will get back to you within 48 hours. For a faster response, call us directly."
+  />
+
+  <Section>
+    <ContactBlock
+      email={site?.data.email}
+      phone={site?.data.phone}
+      address={site?.data.address}
+    />
+  </Section>
+</BaseLayout>

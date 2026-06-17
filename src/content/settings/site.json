@@ -1,0 +1,20 @@
+{
+  "name": "Smart Choice Roof Restorations",
+  "description": "Melbourne's trusted roof restoration specialists — tile roof restoration, metal roofing, roof repairs, and gutter services with 15+ years experience.",
+  "url": "https://sylvgira.github.io",
+  "email": "info@smartchoiceroofing.com.au",
+  "phone": "0485 815 294",
+  "address": "Melbourne VIC, Australia",
+  "ctaLabel": "Get a free quote",
+  "ctaUrl": "#quote",
+  "socialLinks": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/smartchoicerooforstions/"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/smartchoiceroofrestorations/"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "variant": "image-full",
+    "eyebrow": "Melbourne's Roof Restoration Specialists",
+    "title": "Restore your roof.\nProtect your home.",
+    "intro": "Over 15 years restoring Melbourne roofs — tile and metal. Every job backed by our satisfaction guarantee, full insurance, and a 10-year workmanship warranty.",
+    "primaryLabel": "Get a free quote",
+    "primaryUrl": "#quote",
+    "secondaryLabel": "View our work",
+    "secondaryUrl": "#gallery",
+    "imageUrl": "/smart-choice-roof/uploads/hero-roof.jpg"
+  },
+  "servicesVariant": "featured-first",
+  "testimonialsVariant": "stacked",
+  "galleryVariant": "portfolio",
+  "ctaVariant": "band",
+  "gallery": [
+    {
+      "title": "Tile Roof Restoration",
+      "description": "Before: moss, faded, cracked tiles. After: like new.",
+      "imageUrl": ""
+    },
+    {
+      "title": "Colorbond Restoration",
+      "description": "Metal roof restored with fresh rust-proof coating.",
+      "imageUrl": ""
+    },
+    {
+      "title": "Gutter Replacement",
+      "description": "Old rusted gutters replaced with new Colorbond.",
+      "imageUrl": ""
+    }
+  ]
+}

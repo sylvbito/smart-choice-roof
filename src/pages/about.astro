@@ -1,0 +1,41 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import PageIntro from '@components/PageIntro.astro';
+import Section from '@components/Section.astro';
+import GalleryBlock from '@components/GalleryBlock.astro';
+import CTABand from '@components/CTABand.astro';
+---
+
+<BaseLayout title="About" description="Learn about who we are, how we work, and why clients choose us.">
+  <PageIntro
+    eyebrow="About"
+    title="Craftsmanship that speaks for itself"
+    intro="We bring experience, care, and accountability to every project — from the first conversation to the final walk-through."
+  />
+
+  <Section title="How we work" narrow>
+    <div class="prose">
+      <p>
+        This business was founded on a simple idea: quality work should be done by people who take pride in what they build —
+        not assembled from standard components on a tight schedule. We serve clients who value quality over speed.
+      </p>
+      <p>
+        Every project is designed carefully, built in a controlled environment, and installed by our own team.
+        We do not cut corners on materials, and we do not rush the finish work. That is why our results last.
+      </p>
+      <p>
+        Whether you need a single piece or a complete fit-out, we treat your project with the same attention to
+        detail — and give you a clear timeline and a fixed price before we start.
+      </p>
+    </div>
+  </Section>
+
+  <Section variant="surface" eyebrow="Our work" title="Recent projects">
+    <GalleryBlock />
+  </Section>
+
+  <CTABand
+    title="Ready to talk about your project?"
+    text="Tell us what you are planning and we will arrange a consultation — no obligation."
+  />
+</BaseLayout>
