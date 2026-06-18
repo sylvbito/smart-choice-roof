@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://sylvgira.github.io',
+  site: 'https://sylvbito.github.io',
   base: '/smart-choice-roof',
   trailingSlash: 'always'
 });
