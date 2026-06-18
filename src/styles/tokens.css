@@ -38,8 +38,8 @@
   --font-condensed: "Inter Tight", "Arial Narrow", "Helvetica Neue", sans-serif;
   --font-display: var(--font-sans);
 
-  --text-xs:  clamp(0.7rem,  0.68rem + 0.08vw, 0.75rem);
-  --text-sm:  clamp(0.82rem, 0.8rem + 0.1vw,  0.875rem);
+  --text-xs:  clamp(0.75rem, 0.72rem + 0.12vw, 0.8125rem);
+  --text-sm:  clamp(0.875rem, 0.85rem + 0.1vw, 0.9375rem);
   --text-base: 1rem;
   --text-md:  clamp(1.125rem, 1.07rem + 0.24vw, 1.25rem);
   --text-lg:   clamp(1.25rem,  1.11rem + 0.61vw, 1.563rem);
