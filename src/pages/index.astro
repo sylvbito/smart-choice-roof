@@ -2,6 +2,7 @@
 import { getCollection, getEntry } from 'astro:content';
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Hero from '@components/Hero.astro';
+import GalleryBlock from '@components/GalleryBlock.astro';
 import ServiceGrid from '@components/ServiceGrid.astro';
 import Testimonials from '@components/Testimonials.astro';
 import FAQList from '@components/FAQList.astro';
@@ -9,7 +10,6 @@ import TrustBar from '@components/TrustBar.astro';
 import CTABand from '@components/CTABand.astro';
 import Section from '@components/Section.astro';
 import EstimateTool from '@components/EstimateTool.astro';
-import BeforeAfterGallery from '@components/BeforeAfterGallery.astro';
 import { byOrder } from '../lib/content';
 
 const site = await getEntry('settings', 'site');
@@ -58,9 +58,13 @@ const hero = home?.data.hero;
     <EstimateTool />
   </Section>
 
-  <!-- Before/After Gallery -->
-  <Section theme="surface" id="gallery">
-    <BeforeAfterGallery />
+  <!-- Gallery -->
+  <Section theme="surface" id="gallery" eyebrow="Our work" title="Recent projects">
+    {
+      home?.data.gallery && home.data.gallery.length > 0 ? (
+        <GalleryBlock items={home.data.gallery} variant={home?.data.galleryVariant ?? 'portfolio'} />
+      ) : null
+    }
   </Section>
 
   <!-- Testimonials -->
