@@ -10,7 +10,7 @@
     "secondaryUrl": "#gallery",
     "imageUrl": "/smart-choice-roof/uploads/hero-roof.jpg"
   },
-  "servicesVariant": "featured-first",
+  "servicesVariant": "icon-grid",
   "testimonialsVariant": "stacked",
   "galleryVariant": "portfolio",
   "ctaVariant": "band",
@@ -18,17 +18,22 @@
     {
       "title": "Tile Roof Restoration",
       "description": "Before: moss, faded, cracked tiles. After: like new.",
-      "imageUrl": ""
+      "imageUrl": "/smart-choice-roof/uploads/hero-roof.jpg"
     },
     {
       "title": "Colorbond Restoration",
       "description": "Metal roof restored with fresh rust-proof coating.",
-      "imageUrl": ""
+      "imageUrl": "/smart-choice-roof/uploads/gallery-1.jpg"
     },
     {
       "title": "Gutter Replacement",
       "description": "Old rusted gutters replaced with new Colorbond.",
-      "imageUrl": ""
+      "imageUrl": "/smart-choice-roof/uploads/gallery-2.jpg"
+    },
+    {
+      "title": "Complete Roof Makeover",
+      "description": "Full roof restoration — from start to finish.",
+      "imageUrl": "/smart-choice-roof/uploads/gallery-3.jpg"
     }
   ]
 }
